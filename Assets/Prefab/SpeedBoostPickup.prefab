@@ -191,8 +191,8 @@ MonoBehaviour:
   duration: 10
   respawnDelay: 5
   visuals: {fileID: 7802420184400474619}
-  pickupSound: {fileID: 0}
-  pickupEffect: {fileID: 0}
+  pickupSound: {fileID: 8300000, guid: 5d1fb47107661a24cb9fc8ec6231509f, type: 3}
+  pickupEffect: {fileID: 7166448123834306548, guid: e348d3080e4f1fa45bc965454e95a477, type: 3}
 --- !u!1 &7802420184400474619
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,8 +254,6 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -277,9 +275,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
